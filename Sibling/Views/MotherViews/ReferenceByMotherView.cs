@@ -14,7 +14,7 @@ namespace Sibling.Views.MotherViews
         }
         public void ReferenceByMother(Mother mother, List<Child> children)
         {
-            if (mother == null) { Console.WriteLine("Няма такъва майка!"); }
+            if (mother == null) { Console.WriteLine("Няма такава майка!"); }
             else
             {
                 Console.WriteLine($"Майка с ИД: {mother.MotherID}, Име: {mother.Name}, Години: {mother.Age}");
